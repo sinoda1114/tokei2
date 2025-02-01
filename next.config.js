@@ -5,6 +5,9 @@ const nextConfig = {
     unoptimized: true,  // 静的エクスポート用に画像最適化を無効化
   },
   trailingSlash: true,
+  basePath: '',
+  assetPrefix: '',
+  distDir: 'out',
 }
 
 module.exports = nextConfig 
