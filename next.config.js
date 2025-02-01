@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,  // 静的エクスポート用に画像最適化を無効化
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
